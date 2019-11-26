@@ -50,6 +50,7 @@
 > ​																		R4发来的路由信息
 >
 > 首先，按照第一步***将该 RIP 报文中的下一跳地址修改为 X，且跳数增加 1***
+> 
 > | 目的网络 | 距离 | 下一跳地址 |
 > | :------: | :--: | :--------: |
 > |   Net1   |  4   |     R4     |
@@ -76,7 +77,9 @@
 
 > ### RIP报文协议格式
 >
-> <img src="C:\Users\chenzhihao\Desktop\rip-format-rip2.png" alt="rip-format-rip2" style="zoom:150%;" />
+> <img src="https://github.com/guguchen/blog/blob/master/rip-format-rip2.png" alt="rip-format-rip2" style="zoom:150%;" />
+>
+> 
 >
 > |              字段名              | 长度  |                             含义                             |
 > | :------------------------------: | :---: | :----------------------------------------------------------: |
